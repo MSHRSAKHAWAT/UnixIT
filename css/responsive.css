@@ -124,3 +124,9 @@
     width: 65%;
   }
 }
+
+@media screen and (max-width: 992px) and (min-width: 300px) {
+  .map_wrapper_iframe {
+    float: none !important;
+  }
+}
