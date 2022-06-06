@@ -1,4 +1,7 @@
 @media screen and (max-width: 768px) and (min-width: 300px) {
+  .navbar .logo {
+    width: 35%;
+  }
   .line_cntr {
     display: flex;
     justify-content: center;
