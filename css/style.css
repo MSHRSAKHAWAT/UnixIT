@@ -218,11 +218,12 @@ ul {
 /* =================header_home================= */
 
 #header_home {
-    background: url(../images/bgimg.jpg);
+    background: url(../images/unixithomebanner4.jpg);
     /* height: 100vh; */
     height: auto;
     background-size: cover;
     background-position: center center;
+    background-attachment: fixed;
 }
 
 .header_home_content {
@@ -235,10 +236,10 @@ ul {
 }
 
 .reg_srch_btn .reg_now_btn {
-    border: 2px solid #c60fb2;
+    border: 2px solid #1d242f;
     padding: 10px 20px;
     color: #fff;
-    background: #c60fb2;
+    background: #1d242f;
 }
 
 .reg_srch_btn .search_now_btn {
