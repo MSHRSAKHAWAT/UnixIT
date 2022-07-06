@@ -232,7 +232,8 @@ ul {
 }
 
 .header_home_content a {
-    margin: -50px 20px 0 20px;
+    /* margin: -50px 20px 0 20px; */
+    margin: 50px 10px;
 }
 
 .reg_srch_btn .reg_now_btn {
