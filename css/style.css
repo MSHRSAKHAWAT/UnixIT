@@ -728,6 +728,23 @@ h5 {
 }
 
 
+/* ==============payment_part============== */
+
+.payment_main_part {
+    margin-bottom: 50px;
+}
+
+.payment_card {
+    border: 1px solid #0b8cae;
+    text-align: center;
+    padding: 20px;
+    height: 150px;
+    width: fit-content;
+    /* background: #a59f9f; */
+    margin: auto;
+}
+
+
 /* =====================footer_part===================== */
 
 #footer_part {
