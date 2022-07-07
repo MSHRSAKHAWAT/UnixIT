@@ -1,132 +1,145 @@
 @media screen and (max-width: 768px) and (min-width: 300px) {
-  .navbar .logo {
-    width: 35%;
-  }
-  .line_cntr {
-    display: flex;
-    justify-content: center;
-    margin: 5px auto;
-  }
-  .vdo_style {
-    width: 90%;
-  }
+    .navbar .logo {
+        width: 35%;
+    }
+    .line_cntr {
+        display: flex;
+        justify-content: center;
+        margin: 5px auto;
+    }
+    .vdo_style {
+        width: 90%;
+    }
 }
+
 
 /* responsive media query start */
+
+
 /* navbar start */
+
 @media (max-width: 1104px) {
-  .about .about-content .left img {
-    height: 350px;
-    width: 350px;
-  }
+    .about .about-content .left img {
+        height: 350px;
+        width: 350px;
+    }
 }
+
 @media (max-width: 992px) {
-  .max-width {
-    padding: 0 50px;
-  }
-  .leader_content {
-    text-align: center;
-    padding: 20px;
-  }
+    .max-width {
+        padding: 0 50px;
+    }
+    .leader_content {
+        text-align: center;
+        padding: 20px;
+    }
 }
+
 @media (max-width: 947px) {
-  .menu-btn {
-    display: block;
-    z-index: 999;
-  }
-  .menu-btn i.active:before {
-    content: "\f00d";
-  }
-  .navbar .menu {
-    position: fixed;
-    height: 100vh;
-    width: 50%;
-    left: -100%;
-    top: 0;
-    background: #000000f0;
-    text-align: center;
-    padding-top: 80px;
-    transition: all 0.3s ease;
-  }
-  .navbar .menu.active {
-    left: 0;
-  }
-  .navbar .menu li {
-    display: block;
-  }
-  .navbar .menu li a {
-    display: inline-block;
-    margin: 20px 0;
-    font-size: 25px;
-  }
-  .max-width {
-    max-width: 930px;
-  }
+    .menu-btn {
+        display: block;
+        z-index: 999;
+    }
+    .menu-btn i.active:before {
+        content: "\f00d";
+    }
+    .navbar .menu {
+        position: fixed;
+        height: 100vh;
+        width: 50%;
+        left: -100%;
+        top: 0;
+        background: #000000f0;
+        text-align: center;
+        padding-top: 80px;
+        transition: all 0.3s ease;
+    }
+    .navbar .menu.active {
+        left: 0;
+    }
+    .navbar .menu li {
+        display: block;
+    }
+    .navbar .menu li a {
+        display: inline-block;
+        margin: 20px 0;
+        font-size: 25px;
+    }
+    .max-width {
+        max-width: 930px;
+    }
 }
+
 @media (max-width: 690px) {
-  .max-width {
-    padding: 0 23px;
-  }
+    .max-width {
+        padding: 0 23px;
+    }
 }
+
 @media (max-width: 500px) {
-  .scroll-up-btn {
-    right: 15px;
-    bottom: 15px;
-    height: 38px;
-    width: 35px;
-    font-size: 23px;
-    line-height: 38px;
-  }
+    .scroll-up-btn {
+        right: 15px;
+        bottom: 15px;
+        height: 38px;
+        width: 35px;
+        font-size: 23px;
+        line-height: 38px;
+    }
 }
+
+
 /* navbar end */
 
+
 /* our_experience_advisor */
+
 @media screen and (max-width: 767px) and (min-width: 300px) {
-  .main .mb_70 {
-    margin-bottom: 70px !important;
-  }
-  .profile-card {
-    border-radius: 10px;
-    height: 260px;
-  }
-  .profile-card .img_sdo {
-    transform: translateY(-60px);
-  }
-  .profile-card img {
-    border-radius: 10px;
-  }
-  .profile-card .caption {
-    opacity: 1;
-  }
-  .social-links a {
-    color: #0c52a1;
-  }
+    .main .mb_70 {
+        margin-bottom: 70px !important;
+    }
+    .profile-card {
+        border-radius: 10px;
+        height: 260px;
+    }
+    .profile-card .img_sdo {
+        transform: translateY(-60px);
+    }
+    .profile-card img {
+        border-radius: 10px;
+    }
+    .profile-card .caption {
+        opacity: 1;
+    }
+    .social-links a {
+        color: #0c52a1;
+    }
 }
 
-/* event_card */
-@media screen and (min-width: 992px) {
-  .event_body .card {
-    display: -webkit-inline-box;
-    /* height: 35rem; */
-    overflow: hidden;
-    height: auto;
-  }
 
-  .event_body .event_card_img {
-    height: auto;
-    flex: 1;
-    width: 35%;
-  }
-  .event_body .event_card_content {
-    flex: 2;
-    display: flex;
-    flex-direction: column;
-    width: 65%;
-  }
+/* event_card */
+
+@media screen and (min-width: 992px) {
+    .event_body .card {
+        display: -webkit-inline-box;
+        /* height: 35rem; */
+        overflow: hidden;
+        height: auto;
+    }
+    .event_body .event_card_img {
+        height: auto;
+        flex: 1;
+        width: 35%;
+    }
+    .event_body .event_card_content {
+        flex: 2;
+        display: flex;
+        flex-direction: column;
+        width: 65%;
+    }
 }
 
 @media screen and (max-width: 992px) and (min-width: 300px) {
-  .map_wrapper_iframe {
-    float: none !important;
-  }
+    .map_wrapper_iframe {
+        float: none !important;
+    }
 }

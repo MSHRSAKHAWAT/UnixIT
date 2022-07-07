@@ -218,12 +218,19 @@ ul {
 /* =================header_home================= */
 
 #header_home {
-    background: url(../images/unixithomebanner4.jpg);
+    background: url(../images/unixithomebanner5.jpg);
     /* height: 100vh; */
     height: auto;
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
+}
+
+.header_home_overlay {
+    background: rgb(165, 165, 166);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.71) 0%, rgba(255, 255, 255, 0.68) 100%);
+    width: 100%;
+    height: auto;
 }
 
 .header_home_content {
@@ -244,14 +251,14 @@ ul {
 }
 
 .reg_srch_btn .search_now_btn {
-    border: 2px solid #f9efef;
+    border: 2px solid #0b8cae;
     padding: 10px 20px;
     color: #fff;
 }
 
 .reg_srch_btn a:hover {
-    border: 2px solid #f9efef;
-    background: #930c83;
+    border: 2px solid #0b8cae;
+    background: #0b8cae;
 }
 
 
@@ -271,6 +278,8 @@ ul {
     background: #0d6efd;
     padding: 10px;
     color: #fff;
+    position: absolute;
+    right: 40px;
 }
 
 .course_card {
@@ -312,7 +321,7 @@ ul {
     color: #fefefe;
     height: 40px;
     width: 40px;
-    background: #395684;
+    background: #0b8cae;
     text-align: center;
     line-height: 40px;
     display: inline-block;
@@ -326,7 +335,7 @@ ul {
     color: #fefefe;
     height: 40px;
     width: 40px;
-    background: #395684;
+    background: #0b8cae;
     text-align: center;
     line-height: 40px;
     display: inline-block;
