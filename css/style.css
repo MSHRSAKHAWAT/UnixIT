@@ -271,11 +271,11 @@ ul {
 .see_course_btn {
     display: flex;
     justify-content: end;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
 }
 
 .see_course_btn a {
-    background: #0d6efd;
+    background: #0b8cae;
     padding: 10px;
     color: #fff;
     position: absolute;
@@ -328,7 +328,7 @@ ul {
     cursor: pointer;
     position: absolute;
     left: 50px;
-    top: -55px;
+    top: -60px;
 }
 
 .slider .next_arrow {
@@ -341,7 +341,7 @@ ul {
     display: inline-block;
     cursor: pointer;
     position: absolute;
-    top: -55px;
+    top: -60px;
 }
 
 
