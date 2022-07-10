@@ -80,7 +80,7 @@ section {
 /* ================top_contact_line================ */
 
 #top_contact_line {
-    background: #343434;
+    background: #797979;
     color: #fff;
 }
 
@@ -167,7 +167,7 @@ ul {
 }
 
 .navbar .menu li a:hover {
-    color: #06002d;
+    color: #27a7c5;
 }
 
 .navbar.sticky .menu li a:hover {
@@ -253,7 +253,8 @@ ul {
 .reg_srch_btn .search_now_btn {
     border: 2px solid #5d45a2;
     padding: 10px 20px;
-    color: #fff;
+    color: #000;
+    background: #ffffff61;
 }
 
 .reg_srch_btn a:hover {
@@ -266,6 +267,16 @@ ul {
 
 #populer_course {
     padding-top: 40px;
+}
+
+.priv_arrow i {
+    font-size: 25px;
+    font-weight: 900;
+}
+
+.next_arrow i {
+    font-size: 25px;
+    font-weight: 900;
 }
 
 .see_course_btn {
@@ -323,7 +334,7 @@ ul {
     width: 40px;
     background: #0b8cae;
     text-align: center;
-    line-height: 40px;
+    line-height: 46px;
     display: inline-block;
     cursor: pointer;
     position: absolute;
@@ -337,7 +348,7 @@ ul {
     width: 40px;
     background: #0b8cae;
     text-align: center;
-    line-height: 40px;
+    line-height: 46px;
     display: inline-block;
     cursor: pointer;
     position: absolute;
@@ -715,7 +726,7 @@ h5 {
 }
 
 .blog_rdmr_btn a:hover {
-    background: #5d45a2;
+    background: #27a6c4;
     color: #fff;
     transition: all 0.3s;
 }
