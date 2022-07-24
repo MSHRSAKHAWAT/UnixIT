@@ -638,6 +638,7 @@ ul {
   display: flex;
   align-items: center;
   padding-bottom: 30px;
+  margin: auto;
 }
 
 .happy_card {
@@ -712,7 +713,7 @@ h5 {
 }
 
 .blog_rdmr_btn a:hover {
-  background: #27a6c4;
+  background: #0b8cae;
   color: #fff;
   transition: all 0.3s;
 }
@@ -877,7 +878,7 @@ h5 {
 }
 
 .footer-widget ul li a:hover {
-  color: #ff5e14;
+  color: #0b8cae;
 }
 
 .footer-widget ul li a {

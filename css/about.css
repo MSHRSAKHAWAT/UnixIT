@@ -54,18 +54,19 @@ html {
 
 /* ==========filter_mission========== */
 #filter_mission {
-  padding-top: 40px;
+  /* padding-top: 40px; */
 }
 
 .filterDiv {
-  float: left;
-  background-color: #2196f3;
+  /* float: left; */
+  background-color: #3b7caf;
   color: #ffffff;
-  width: 100px;
-  line-height: 100px;
+  width: 85%;
+  /* line-height: 100px; */
   text-align: center;
   margin: 2px;
   display: none;
+  margin: 10px auto;
 }
 
 .show {
@@ -93,4 +94,48 @@ html {
 .btn.active {
   background-color: #666;
   color: white;
+}
+
+.btn-check:focus + .btn,
+.btn:focus {
+  outline: 0;
+  box-shadow: none !important;
+}
+
+/* ==========training_department========== */
+
+#training_department {
+}
+/*
+.training_department_crd_cntr {
+  margin: auto;
+} */
+
+/* new */
+.training_department_crd_cntr {
+  border: 1px solid rgb(189, 187, 187);
+  justify-content: center;
+  display: flex;
+  margin: auto;
+  height: 200px;
+  width: 18%;
+}
+
+.traing_department_card {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+}
+/* end */
+
+/* .traing_department_card {
+  width: 100%;
+  height: auto;
+  padding: 45px 0;
+} */
+
+.traing_department_card img {
+  width: 32% !important;
 }

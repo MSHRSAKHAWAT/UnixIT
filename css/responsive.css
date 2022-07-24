@@ -138,3 +138,16 @@
     float: none !important;
   }
 }
+
+
+
+/* ===========about.html_start=========== */
+
+@media screen and (max-width: 992px) and (min-width: 300px){
+  .training_department_crd_cntr {
+    flex-wrap: wrap;
+    display: flex;
+    width: 35%;
+  }
+}
+
