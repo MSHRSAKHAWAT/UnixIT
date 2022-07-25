@@ -16,7 +16,7 @@ HeaderNavbar.innerHTML = `
         <div class="contact_info_social">
           <ul class="d-flex">
             <li>
-              <a href="#" class="text-white"><i class="fa fa-facebook-f"></i></a>
+              <a href="https://www.facebook.com/profile.php?id=100064064741480" class="text-white"><i class="fa fa-facebook-f"></i></a>
             </li>
             <li>
               <a href="#" class="text-white"><i class="fa fa-instagram"></i></a>
@@ -46,7 +46,7 @@ HeaderNavbar.innerHTML = `
             <img width="100" src="images/unixitlogo1tealnew.png" alt="" />
           </div>
           <ul class="menu">
-            <li><a href="#home" class="menu-btn">Home</a></li>
+            <li><a href="index.html" class="menu-btn">Home</a></li>
             <li><a href="others_html/about.html" class="menu-btn">About</a></li>
             <li><a href="#services" class="menu-btn">Admission</a></li>
             <li><a href="#skills" class="menu-btn">Courses</a></li>
