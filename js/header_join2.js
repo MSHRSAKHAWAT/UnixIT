@@ -50,8 +50,8 @@ function abc(x) {
               <img width="100" src="../images/unixitlogo1tealnew.png" alt="" />
             </div>
             <ul class="menu">
-              <li><a href="../index.html" class="menu-btn">Home</a></li>
-              <li><a href="others_html/about.html" class="menu-btn">About</a></li>
+            <li><a href="../index.html" class="menu-btn">Home</a></li>
+            <li><a href="../others_html/about.html" class="menu-btn">About</a></li>
               <li><a href="#services" class="menu-btn">Admission</a></li>
               <li><a href="#skills" class="menu-btn">Courses</a></li>
               <li><a href="#teams" class="menu-btn">Others</a></li>
