@@ -1,0 +1,130 @@
+/* ==========registration_header========== */
+
+#registration_header {
+  background: url(../images/unixithomebanner1.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: auto;
+  width: 100%;
+}
+
+.registration_header_overlay {
+  /* background: linear-gradient(180deg, rgba(0, 0, 0, 0.71) 0%, rgba(255, 255, 255, 0.68) 100%); */
+  background: linear-gradient(180deg, rgba(255,118,35,0.7123891793045343) 0%, rgba(255,140,242,0.6815768543745624) 60%, rgba(255,255,255,1) 93%);
+  width: 100%;
+  height: auto;
+}
+
+.registration_header_content {
+  padding-top: 150px;
+  text-align: center;
+}
+
+/* =======registration_form_start======= */
+.regestration_form_title h2 {
+  margin-top: 260px;
+  font-size: 40px;
+  margin-bottom: 65px;
+  font-weight: bold;
+}
+
+.form_inner {
+  width: 100%;
+  /*	background: #1e799c;*/
+  background: rgb(30, 121, 156);
+  background: linear-gradient(
+    10deg,
+    rgba(30, 121, 156, 0.8494748241093313) 25%,
+    rgba(15, 34, 62, 0.8438725832129726) 95%,
+  );
+  padding-top: 50px;
+  border: 2px solid aliceblue;
+  padding: 50px 10px 0 10px;
+}
+
+.form_group {
+  width: 100%;
+}
+
+.form_group h5 {
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.form_item {
+  width: 100%;
+  margin-bottom: 30px;
+}
+.form_item input {
+  display: inline !important;
+}
+
+.form_text {
+  width: 100%;
+  height: 40px;
+  padding: 5px 10px;
+  box-sizing: border-box;
+}
+
+.form_text2 {
+  width: 100%;
+  height: 80px;
+  padding: 15px 10px;
+  box-sizing: border-box;
+}
+
+.img_upload {
+  color: #fff;
+  height: 55px;
+  /*	padding-top: 15px;*/
+}
+
+.checkbox {
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+}
+
+.checkbox_right {
+  /* padding-left: 35px; */
+  color: #fff;
+  font-size: 20px;
+}
+
+.checkbox_right a {
+  text-decoration: none;
+  color: #000;
+}
+
+.gender_font {
+  color: #fff;
+  font-size: 20px;
+  padding-right: 20px;
+}
+
+.regester_now {
+  font-weight: bold;
+  width: 100%;
+  padding: 5px 10px;
+  border: 0;
+  font-size: 20px;
+  border-radius: 9px;
+  box-shadow: 0px 0px 11px 1px #0b0c0c;
+  background: #ffeada;
+  height: 40px;
+}
+
+.mt_30 {
+  margin-top: -30px;
+}
+
+.font_style {
+  font-weight: bold;
+  color: yellow;
+}
+
+.font_style:hover {
+  color: yellow;
+}
