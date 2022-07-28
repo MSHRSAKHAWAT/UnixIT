@@ -11,7 +11,12 @@
 
 .registration_header_overlay {
   /* background: linear-gradient(180deg, rgba(0, 0, 0, 0.71) 0%, rgba(255, 255, 255, 0.68) 100%); */
-  background: linear-gradient(180deg, rgba(255,118,35,0.7123891793045343) 0%, rgba(255,140,242,0.6815768543745624) 60%, rgba(255,255,255,1) 93%);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 118, 35, 0.7123891793045343) 0%,
+    rgba(255, 140, 242, 0.6815768543745624) 60%,
+    rgba(255, 255, 255, 1) 93%
+  );
   width: 100%;
   height: auto;
 }
@@ -36,7 +41,7 @@
   background: linear-gradient(
     10deg,
     rgba(30, 121, 156, 0.8494748241093313) 25%,
-    rgba(15, 34, 62, 0.8438725832129726) 95%,
+    rgba(15, 34, 62, 0.8438725832129726) 95%
   );
   padding-top: 50px;
   border: 2px solid aliceblue;
