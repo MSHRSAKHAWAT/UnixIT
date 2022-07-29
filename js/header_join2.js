@@ -8,12 +8,18 @@ function abc(x) {
   <div class="container">
     <div class="row py-2">
       <div class="col-lg-6 col-md-6 col-sm-12 line_cntr">
-        <div class="contact_info d-flex">
-          <div class="contact_info_phn"><i class="fa fa-phone">&nbsp; 01822663583</i>&nbsp;&nbsp;|&nbsp;&nbsp;</div>
-          <div class="contact_info_sms">
-            <i class="fa fa-envelope">&nbsp; unixit21@gmail.com</i>
-          </div>
-        </div>
+      <div class="contact_info d-flex">
+      <div class="contact_info_phn">
+        <i class="fa fa-phone"
+          >&nbsp; <span style="font-family: 'Kdam Thmor Pro', sans-serif !important">01822663583</span> </i
+        >&nbsp;&nbsp;|&nbsp;&nbsp;
+      </div>
+      <div style="font-family: 'Kdam Thmor Pro', sans-serif !important" class="contact_info_sms">
+        <i class="fa fa-envelope"
+          >&nbsp; <span style="font-family: 'Kdam Thmor Pro', sans-serif !important">unixit21@gmail.com</span></i
+        >
+      </div>
+    </div>
       </div>
       <div class="col-lg-6 col-md-6 col-sm-12 line_cntr">
         <div class="d-flex justify-content-end">
@@ -34,9 +40,9 @@ function abc(x) {
             </ul>
           </div>
           <div class="user_form">
-            <a class="text-white" href="#" class=""><b>Sign In</b></a> |
-            <a class="text-white" href="#" class=""><b>Join</b></a>
-          </div>
+          <a class="text-white" href="#" class=""><b style="font-family: 'Kdam Thmor Pro', sans-serif !important" >Sign In</b></a> |
+          <a class="text-white" href="#" class=""><b style="font-family: 'Kdam Thmor Pro', sans-serif !important" >Join</b></a>
+        </div>
         </div>
       </div>
     </div>
@@ -50,10 +56,10 @@ function abc(x) {
               <img width="100" src="../images/unixitlogo1tealnew.png" alt="" />
             </div>
             <ul class="menu">
-            <li><a href="../index.html" class="menu-btn">Home</a></li>
-            <li><a href="../others_html/about.html" class="menu-btn">About</a></li>
+              <li><a href="../index.html" class="menu-btn">Home</a></li>
+              <li><a href="../others_html/about.html" class="menu-btn">About</a></li>
               <li><a href="../others_html/admission.html" class="menu-btn">Admission</a></li>
-              <li><a href="#skills" class="menu-btn">Courses</a></li>
+              <li><a href="../others_html/courses.html" class="menu-btn">Courses</a></li>
               <li><a href="#teams" class="menu-btn">Others</a></li>
               <li><a href="#contact" class="menu-btn">Contact</a></li>
             </ul>
