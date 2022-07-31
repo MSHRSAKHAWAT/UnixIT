@@ -49,7 +49,7 @@ HeaderNavbar.innerHTML = `
       <nav class="navbar">
         <div class="max-width m-0">
           <div class="logo">
-            <img width="100" src="images/unixitlogo1tealnew.png" alt="" />
+            <img width="100" src="images/unix_it_main_logo-03.png" alt="" />
           </div>
           <ul class="menu">
             <li><a href="index.html" class="menu-btn">Home</a></li>

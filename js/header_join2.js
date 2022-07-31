@@ -52,9 +52,9 @@ function abc(x) {
         <!-- ===================navbar=================== -->
         <nav class="navbar">
           <div class="max-width m-0">
-            <div class="logo">
-              <img width="100" src="../images/unixitlogo1tealnew.png" alt="" />
-            </div>
+          <div class="logo">
+          <img width="100" src="../images/unix_it_main_logo-03.png" alt="" />
+        </div>
             <ul class="menu">
               <li><a href="../index.html" class="menu-btn">Home</a></li>
               <li><a href="../others_html/about.html" class="menu-btn">About</a></li>
