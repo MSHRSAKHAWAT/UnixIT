@@ -103,7 +103,8 @@ ul {
 }
 
 .navbar.sticky {
-  background: #0d1420e8;
+  /* background: #0d1420e8; */
+  background: #000;
   top: 0;
 }
 
@@ -361,6 +362,14 @@ ul {
   position: absolute;
   left: 50px;
   top: -60px;
+}
+
+.slick-dots {
+  bottom: -10px !important;
+}
+
+.slick-dots li button::before {
+  font-size: 10px !important;
 }
 
 /* ===============why_choose_our_course=============== */
